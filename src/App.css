@@ -3,36 +3,75 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vh;
+  width:auto;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin 2s 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  /* background-color: #305296; */
+  background-image: url(./GGlogo.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+	background-position: center;
+  height:90vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* .about { */
+  /* background-color:whitesmoke; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+/* } */
+
+.aboutContent {
+	/* margin: auto 5%; */
+  text-align: center;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutTitle {
+  font-size: 4.5em;
+  color: rgb(22, 143, 143);
+  font-style: italic;
 }
+.aboutImage {
+  background-image: url(./GGsquadpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.aboutParagraph {
+  text-align: center;
+  margin: 2% 12%;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:xx-large;
+  color: grey;
+}
+
+.bubbie {
+  background-color: whitesmoke;
+  font-family: Roboto;
+  text-align: center;
+}
+.bubbieContent {
+  margin: 0 7%;
+  font-size: x-large;
+  color: darkcyan;
+}
+
+
