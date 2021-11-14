@@ -1,5 +1,5 @@
 import * as React from 'react';
-import GGlogo from './GGlogo.jpeg';
+// import GGlogo from './GGlogo.jpeg';
 import Button from '@mui/material/Button';
 import './App.css';
 import ButtonAppBar from './navBar';
