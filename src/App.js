@@ -39,7 +39,7 @@ function App() {
       
       <div className="bubbie">
       <h1 style={{textAlign:"center", fontStyle:"oblique"}}>Bubbie Golf</h1>
-      <img className="bubbiePic" src={bubbiePic} />
+      <img className="bubbiePic" src={bubbiePic} alt="Pic of Bubbie" />
       <SimplePaper />
       {/* <p className="bubbieContent">Bubbie Golf (AKA Tom Broders) is a member of Good Good and a member of Team Stumps. He's a self-proclaimed Chicago boy. He is known for his tings and joints, along with his Bubbie draw and crushing tee shots. One of the most positive group members, Bubbie aims to keep the good thoughts flowing.</p> */}
       <h2 style={{textAlign:"center"}}>Socials</h2>
