@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family:'Segoe UI';
 }
 
 .App-logo {
@@ -53,25 +54,44 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .aboutParagraph {
-  text-align: center;
+  text-align: left;
   margin: 2% 12%;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size:xx-large;
   color: grey;
 }
+.bubbiePic {
+  height: 45vh;
+  width: 20vw;
+  margin-bottom: 2%;
+}
 
 .bubbie {
   background-color: whitesmoke;
   font-family: Roboto;
-  text-align: center;
+  text-align: left;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
 }
 .bubbieContent {
   margin: 0 7%;
   font-size: x-large;
   color: darkcyan;
+}
+.bubbieSocials {
+  display: flex;
+  /* flex-direction:row; */
+  justify-content:space-evenly;
+  align-content:space-between;
+  margin: 0 5%;
 }
 
 
