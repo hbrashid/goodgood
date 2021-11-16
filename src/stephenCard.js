@@ -21,7 +21,7 @@ export default function StephenCard() {
           Stephen Castaneda
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Stephen Castaneda is a member of Good Good and a member of Team Twigs. He's from Kansas and is building a golf course in his spare time and he likes to wear sunglasses indoors. Some say he can feel putts in his toes, we'll let you be the judge. One thing is for sure though, his game has leveled up.
+        Stephen Castaneda is a member of Good Good and a member of Team Twigs. He's from Kansas and is building a golf course in his spare time and he likes to wear sunglasses indoors(no idea why...). Some say he can feel putts in his toes, we'll let you be the judge of that. One thing is for sure though, this sumbucks game has leveled up.
         </Typography>
       </CardContent>
       <CardActions>
