@@ -24,7 +24,9 @@ function App() {
 
       <div className="header">
         {/* <img className="App-logo" src={GGlogo}></img> */}
-      
+      <a href="#about">
+      <div className="scroll-down"></div>
+      </a>
       </div>
 
       <div className="about">
@@ -38,7 +40,7 @@ function App() {
 
       </div>
 
-      <div className="aboutParagraph">
+      <div id ="about" className="aboutParagraph">
         <GGCard />
       {/* <p>Good Good started back in 2020. The world was in chaos, but these boys had one thing in mind, Golf. They joined forces in Dallas, TX and began to release unreal golf content. With the art and camera direction of Colin and Max, they have taken the golf game by storm. The squad consists of Bubbie, Micah, Grant, Stephen, Garrett, and Matt.</p> */}
 
