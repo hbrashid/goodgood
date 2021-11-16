@@ -17,6 +17,7 @@ export default function ButtonAppBar() {
             Good Good
           </Typography>
           <Button color="inherit" href="https://www.youtube.com/channel/UCfi-mPMOmche6WI-jkvnGXw">YouTube</Button>
+          <Button color="inherit" href="https://www.youtube.com/channel/UCbY_v56iMzSGvXK79X6f4dw">GG Labs</Button>
           <Button color="inherit" href="https://goodgoodgolf.com/">Shop</Button>
         </Toolbar>
       </AppBar>
