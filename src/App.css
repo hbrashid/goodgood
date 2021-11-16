@@ -99,6 +99,18 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items:center;
 }
+  .squadCards > div {
+    margin: 1%;
+  }
 
+@media (max-width: 768px) {
+
+  .header {
+    background-size: contain;
+  }
+
+
+
+
+}

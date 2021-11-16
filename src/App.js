@@ -13,6 +13,7 @@ import StephenCard from './stephenCard';
 import GarrettCard from './garrettCard';
 import MattCard from './mattCard';
 import GGCard from './goodGoodAbout';
+import Typography from '@mui/material/Typography';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
 
       <div className="about">
           <div className="aboutContent">
-          <h1 className="aboutTitle">The Squad</h1>
+          
 
           </div>
           {/* <div className="aboutImage">
@@ -58,6 +59,8 @@ function App() {
         Instagram
       </Button> 
       </div> */}
+
+      <Typography variant="h2" textAlign="center" marginBottom="3%">Good Good Squad</Typography>
       
       <div className="squadCards">
         <BubbieCard />
