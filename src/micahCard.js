@@ -21,7 +21,7 @@ export default function MicahCard() {
           Micah Morris
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Micah Morris is a member of Good Good and a member of Team Stumps. He may not know left from right, but he knows how to get the golf ball in the hole. He's on the road to pro and he can bomb some drives when the juices are flowing. Oh, and he loves him some coffee.
+        Micah Morris is a member of Good Good and a member of Team Stumps. He may not know left from right, but he knows how to get the golf ball in the hole. He's on the road to pro and he can bomb some drives when the juices are flowing. He also likes to use his trusty 2 iron when needed. Oh, and he loves him some coffee, Dunkin that is.
         </Typography>
       </CardContent>
       <CardActions>
