@@ -14,6 +14,8 @@ import GarrettCard from './garrettCard';
 import MattCard from './mattCard';
 import GGCard from './goodGoodAbout';
 import Typography from '@mui/material/Typography';
+import logoImage from './logoImage.png';
+import VideoIntro from './VideoIntro.mov'
 
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
         
 
       <div className="header">
-        {/* <img className="App-logo" src={GGlogo}></img> */}
+        
+        <video id="backgroundVideo" autoPlay muted poster={logoImage}><source src={VideoIntro} type="video/mp4"></source></video>
       <a href="#about">
       <div className="scroll-down"></div>
       </a>

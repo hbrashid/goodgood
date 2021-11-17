@@ -19,23 +19,34 @@ html {
 
 .header {
   /* background-color: #305296; */
-  background-image: url(./GGlogo.jpeg);
+  /* /* background-image: url(./GGlogo.jpeg);
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
-	background-position: 0% 35%;
+	background-position: 0% 35%; */
   height:99vh;
-  /* display: flex;
-  flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+#backgroundVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .scroll-down {
   height: 50px;
   width: 30px;
   border: 2px solid black;
-  left: 90%;
-  bottom: 30px;
+  left: 93%;
+  bottom: 7%;
   position: absolute;
   border-radius: 50px;
   cursor: pointer;
@@ -95,14 +106,7 @@ html {
   font-style: oblique;
   font-weight: 400;
 }
-.aboutImage {
-  background-image: url(./GGsquadpic.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-  width: 90vw;
-  margin: 0 auto;
-}
+
 
 .aboutParagraph {
   display: flex;
@@ -151,9 +155,15 @@ html {
 @media (max-width: 768px) {
 
   .header {
-    background-size: contain;
-    height: 75vh;
+    background: url("./logoImage.png") no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 55vh;
   }
+  #backgroundVideo {
+    display: none;
+  }
+
 .scroll-down {
   display: none;
 }
